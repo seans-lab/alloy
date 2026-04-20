@@ -23,24 +23,6 @@ Grafana Alloy is a vendor-neutral telemetry collector built on OpenTelemetry and
 * Process and transform telemetry
 * Route data to observability backends (e.g., Grafana Cloud, Loki, Tempo, Mimir)
 
-⸻
-
-📂 Repository Structure
-
-.
-├── configs/                # Alloy configuration examples
-├── pipelines/              # End-to-end observability pipelines
-├── security/               # Hardening guides and best practices
-├── deployments/            # Deployment manifests and patterns
-│   ├── kubernetes/
-│   ├── docker/
-│   ├── linux/
-│   └── windows/
-├── examples/               # Real-world use cases
-├── scripts/                # Helper scripts (CLI, automation)
-└── docs/                   # Deep-dive documentation
-
-⸻
 
 🔐 Security
 
